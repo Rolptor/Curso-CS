@@ -1,0 +1,61 @@
+C# Atalhos
+CTRL K,D Formatação do código todo
+
+CTRL K,C Comenta o que for selecionado
+CTRL K,U Desconta ""
+
+CTRL E, V Duplicar a linha 
+
+
+TABELA VERDADE "E" (&&)
+V && V = V
+V && F = F
+F && V = F
+F && F = F
+
+TABELA VERDADE "OU" ||
+V || V = V
+V || F = V
+F || V = V
+F || F = F 
+
+TABELA VERDADE "OU EXCLUSIVO" ^ (EXIGE QUE APENAS 1 TENHA DADO CERTO)
+V ^ V = F
+V ^ F = V
+F ^ V = V
+F ^ F = F 
+
+
+CLASSE VS OBJETO
+int a = 3;
+int = tipo
+a = identificador
+3 = valor desse tipo
+
+Class = Tipo
+Tipo (INT, STRING, BOOL etc)
+
+
+Class Pessoa {
+Atributos (Dados da classe) 
+Comportamentos (Algoritmos)
+(Ambos são membros de uma classe 
+}
+
+
+Classe (Data)
+Dia, Mês, Ano (INT) new1 -> 12/04/16
+		    new2 -> 20/05/19
+Data d1 = new Data(...);
+int a = 2;
+int b = 3; 	
+
+Criando uma classe com 2 atribuitos por exemplo, ao criar um  operador new,
+esse novo objeto terá 2 espaços de memória com os atributos pré setados  
+
+Algoritmos são sequências de passos podem ter receber entrada e saida, só entrada, só saida ou nenhum dos dois 
+
+
+CONSTRUTORES 
+Construtor tem o mesmo nome da classe, sem nenhum construtor na classe é dado como "Construtor padrão" por definição
+esse não recebe nenhum parametro 
